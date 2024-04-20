@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Fitness</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+
+<style>
+    /* CSS Reset */
+    body {
+        color: rgb(253, 255, 252);
+        margin: 0px;
+        padding: 0px;
+        background: url('file:///C:/Users/Lenovo/Desktop/unnamed.jpg');
+        background-repeat: repeat-x;
+        height: auto;
+    }
+
+    .left {
+        display: inline-block;
+        left: 34px;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: 'Fruktur', cursive;
+        font-size: 20px;
+        background-repeat: no-repeat;
+    }
+
+    .left img {
+        width: 185px;
+        border-radius: 1000px;
+    }
+
+    .middle {
+        display: block;
+        width: 52%;
+        margin: 20px auto;
+        border: 2px solid green;
+        background-color: black;
+        border-radius: 12px;
+        padding-left: 4px;
+    }
+
+    .right {
+        position: absolute;
+        right: 8px;
+        top: 95px;
+        display: inline-block;
+        border: 2px solid white;
+        /* border-radius: 125px; */
+        width: 346px;
+        background-color: #7a6f6f99
+    }
+
+    .btn {
+        margin: 0px 78px;
+        background-color: black;
+        color: white;
+        /* border: 2px solid white; */
+        border-radius: 12px;
+        /* font-size: large; */
+        padding: 6px 79px 5px 67px;
+
+    }
+
+    .btn:hover
+    {
+        color: grey;
+
+    }
+
+    .btn1,.btn2,.btn3
+    {
+        padding: 0px 30px 0px;
+        border-radius: 6px;
+        height: 32px;
+    }
+
+    .h1
+    {
+        margin: 39px 40px;
+    }
+
+    .form-group
+    {
+        text-align: center;
+        display: block;
+        width: 168px;
+        padding: 6px 88px 8px;
+        /* border: 2px solid black; */
+        /* margin: auto; */
+
+    }
+
+
+    .container {
+        padding: 150px 310px 70px 100px;
+        font-size: 80px;
+        color: azure;
+        margin: 59px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: rgb(241, 245, 248);
+        text-decoration: none;
+        padding: 17px 43px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+        text-decoration: underline;
+        background-color: bisque;
+    }
+
+    .navbar li a.active {
+        background-color: #040432;
+    }
+
+    .footer {
+        background-color: black;
+        padding: 32px 535px;
+        height: 5px;
+    }
+
+    .footer .btn1:hover,.btn2:hover,.btn3:hover {
+        background-color: burlywood;
+        border: 2px solid black;
+        border-radius: 12px;
+    }
+
+    .inputs:hover
+    {
+        border: 2px solid black;
+    }
+
+    .inputs:active
+    {
+        border: 2px solid black;
+        background-color:antiquewhite ;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo   -->
+            <!-- I am left -->
+            <img src="file:///C:/Users/Lenovo/Desktop/564-5643817_gym-logo-png-free-transparent-png.png" alt="none">
+            <div>Harshit Fitness</div>
+        </div>
+
+        <div class="middle">
+            <!-- middle box for navigation -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <h1 class="h1">Join the best gym of Delhi now !</h1>
+            <!-- right box for buttons -->
+            <form action="noaction.php" style="padding: 0px 0px 9px 0px;">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name" class="inputs">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone number" class="inputs">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your E-mail ID" class="inputs">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality" class="inputs">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        " If you want something<br>burn and sweat and then get it ! "
+    </div>
+
+    <footer class="footer">
+        <button class="btn1">Call us now</button>
+        <button class="btn2">Email Us</button>
+        <button class="btn3">Locate nearby centre</button>
+    </footer>
+</body>
+
+</html>
